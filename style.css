@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(0, 0, 0);
+    padding: 0px 5px; /* Espaçamento interno */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007BFF; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+
+
+
+/* Reset de estilos padrão para remover margens e preenchimentos */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilize a lista horizontal */
+.menu-horizontal {
+    display: flex; /* Torna a lista um contêiner flexível */
+    background-color: #b8e70c; /* Cor de fundo da lista */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.menu-horizontal li {
+    padding: 10px; /* Espaçamento interno entre os itens */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-horizontal a {
+    text-decoration: none; /* Remova sublinhado dos links */
+    color: #000000; /* Cor do texto dos links */
+}
+
+/* Estilize os links quando o mouse passar sobre eles */
+.menu-horizontal a:hover {
+    background-color: #555; /* Cor de fundo quando passa o mouse */
+}
