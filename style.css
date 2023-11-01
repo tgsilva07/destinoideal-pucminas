@@ -50,3 +50,8 @@ body, ul, li {
 .menu-horizontal a:hover {
     background-color: #555; /* Cor de fundo quando passa o mouse */
 }
+
+.posicao{
+    max-width: 100%;
+    height: auto;
+}
